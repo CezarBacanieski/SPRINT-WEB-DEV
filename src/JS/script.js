@@ -47,6 +47,6 @@ function removeItem(data) {
   values.splice(index, 1);
   localStorage.setItem(localStorageKey, JSON.stringify(values));
   show();
-}
+} 
 
 show(); // Chamando a função show() para exibir os itens já salvos ao carregar a página

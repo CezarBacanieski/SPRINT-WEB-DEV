@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/CSS/style.css" />
+    <link rel="stylesheet" href="src/CSS/to-do.css" />
     <title>To-do List</title>
   </head>
   <body>
-    <h1>To Do List</h1>
+    <h1>Organize sua rotina corredor!</h1>
     <div class="content">
       <div class="add-item">
         <input
@@ -15,7 +15,11 @@
           placeholder="Digite sua nova tarefa"
           id="input-nova-tarefa"
         />
-        <button id="btn-nova-tarefa" title="clique para adicionar nova tarefa" onclick="newTask()">
+        <button
+          id="btn-nova-tarefa"
+          title="clique para adicionar nova tarefa"
+          onclick="newTask()"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -32,9 +36,7 @@
         </button>
       </div>
       <div class="list">
-        <ol id="to-do-list">
-
-        </ol>
+        <ol id="to-do-list"></ol>
       </div>
     </div>
     <script src="src/JS/script.js"></script>
